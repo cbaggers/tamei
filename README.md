@@ -27,6 +27,8 @@ That's awesome! thankyou. The best way for us to get this done quickly is the fo
 
 If you symbol does not fit one of the categories please add it symbol to the `other.md` file.
 
+Exceptions are so woven into the fabric of the language that to treat them as impure would mean no functions would be considered pure. To this end I only treat functions whose primary purpose is related to exceptions to be impure.
+
 The symbols only refer to functions and macros, any collision with restarts, format symbols etc are coincidental and not relevent to this project
 
 Be as harsh as possible, if it is 'almost always pure EXCEPT when x' then it is impure. If it is 'impure but can also do IO' then it's an IO form. If it can jump local but can also jump outside itself then it's impure flow control. You get the idea :)

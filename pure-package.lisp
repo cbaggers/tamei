@@ -11,11 +11,23 @@
                 #:acons
                 #:acos
                 #:acosh
-                #:adjoin)
+                #:adjoin
+                #:slot-boundp
+                #:slot-exists-p
+                #:slot-value
+                #:software-type
+                #:software-version
+                #:some)
   (:export #:>
            #:>=
            #:abs
            #:acons
            #:acos
            #:acosh
-           #:adjoin))
+           #:adjoin
+           #:slot-boundp
+           #:slot-exists-p
+           #:slot-value
+           #:software-type
+           #:software-version
+           #:some))

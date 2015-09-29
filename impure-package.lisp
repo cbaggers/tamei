@@ -1,12 +1,29 @@
-;;;; package containing all impure or destructive forms from common lisp
-;;;; function or macros that mutate their input in any way, or rely on data
-;;;; other than from it's arguments e.g. nconc, setf
-;;;; This EXCLUDES IO, because we are keeping that in the impure-io-package.
+;;;; package containing all the pure forms from common lisp
+;;;; functions or macros that do not modify the inputs or perform visible
+;;;; flow control, and that only operate on their arguments.
+;;;; Can throw exceptions
+;;;;e.g. > equal sqrt
 
-(defpackage #:cl-impure
+(defpackage #:cl-pure
   (:use #:tamei-common)
   (:import-from :cl
-                #:add-method
-                #:adjust-array)
-  (:export #:add-method
-           #:adjust-array))
+                #:>
+                #:>=
+                #:abs
+                #:acons
+                #:acos
+                #:acosh
+                #:adjoin
+                #:slot-boundp
+                #:slot-exists-p
+                #:sort)
+  (:export #:>
+           #:>=
+           #:abs
+           #:acons
+           #:acos
+           #:acosh
+           #:adjoin
+           #:slot-boundp
+           #:slot-exists-p
+           #:sort))
