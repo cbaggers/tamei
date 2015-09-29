@@ -162,8 +162,6 @@ batch 60: (set-syntax-from-char setf setq seventh shadow shadowing-import shared
 
 batch 61: (signum simple-bit-vector-p simple-condition-format-arguments simple-condition-format-control simple-string-p simple-vector-p sin sinh sixth sleep)
 
-batch 62: (slot-boundp slot-exists-p slot-makunbound slot-missing slot-unbound slot-value software-type software-version some sort)
-
 batch 63: (special-operator-p sqrt stable-sort standard-char-p step store-value stream-element-type stream-error-stream stream-external-format streamp)
 
 batch 64: (string string-capitalize string-downcase string-equal string-greaterp string-left-trim string-lessp string-not-equal string-not-greaterp string-not-lessp)
