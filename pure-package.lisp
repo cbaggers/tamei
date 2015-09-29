@@ -3,7 +3,15 @@
 ;;;; flow control, and that only operate on their arguments. e.g. > equal sqrt
 
 (defpackage #:cl-pure
-  (:use #:cl)
+  (:use #:tamei-common)
+  (:import-from :cl
+                #:>
+                #:>=
+                #:abs
+                #:acons
+                #:acos
+                #:acosh
+                #:adjoin)
   (:export #:>
            #:>=
            #:abs

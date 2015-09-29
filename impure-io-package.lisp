@@ -2,6 +2,9 @@
 ;;;; Also impure forms but can perfrom IO
 
 (defpackage #:cl-impure-io
-  (:use #:cl)
+  (:use #:tamei-common)
+  (:import-from :cl
+                #:add-method
+                #:adjust-array)
   (:export #:add-method
            #:adjust-array))

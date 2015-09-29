@@ -4,6 +4,9 @@
 ;;;; This EXCLUDES IO, because we are keeping that in the impure-io-package.
 
 (defpackage #:cl-impure
-  (:use #:cl)
+  (:use #:tamei-common)
+  (:import-from :cl
+                #:add-method
+                #:adjust-array)
   (:export #:add-method
            #:adjust-array))

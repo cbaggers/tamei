@@ -2,5 +2,7 @@
 ;;;; This means forms which can cause a jump outside of itself. e.g. return
 
 (defpackage #:cl-impure-flow
-  (:use #:cl)
+  (:use #:tamei-common)
+  (:import-from :cl
+                #:abort)
   (:export #:abort))

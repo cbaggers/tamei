@@ -2,4 +2,7 @@
 ;;;; all forms that, according to the spec, are only meant to be used at the top level
 
 (defpackage #:cl-top-level-defines
-  (:use #:cl))
+  (:use #:tamei-common)
+  (:import-from :cl
+                )
+  (:export))
