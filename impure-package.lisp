@@ -14,6 +14,13 @@
                 #:acos
                 #:acosh
                 #:adjoin
+                #:bit-and
+                #:bit-andc1
+                #:bit-andc2
+                #:bit-eqv
+                #:bit-ior
+                #:bit-nand
+                #:bit-nor
                 #:slot-boundp
                 #:slot-exists-p
                 #:sort
@@ -28,6 +35,13 @@
            #:acos
            #:acosh
            #:adjoin
+           #:bit-and
+           #:bit-andc1
+           #:bit-andc2
+           #:bit-eqv
+           #:bit-ior
+           #:bit-nand
+           #:bit-nor
            #:slot-boundp
            #:slot-exists-p
            #:sort

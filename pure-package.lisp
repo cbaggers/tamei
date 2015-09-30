@@ -12,6 +12,9 @@
                 #:acos
                 #:acosh
                 #:adjoin
+                #:atanh
+                #:atom
+                #:bit
                 #:complexp
                 #:compute-applicable-methods
                 #:concatenate
@@ -31,6 +34,9 @@
            #:acos
            #:acosh
            #:adjoin
+           #:atanh
+           #:atom
+           #:bit
            #:complexp
            #:compute-applicable-methods
            #:concatenate
