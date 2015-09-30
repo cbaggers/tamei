@@ -15,6 +15,32 @@
                 #:atanh
                 #:atom
                 #:bit
+                #:caadr
+                #:caar
+                #:cadaar
+                #:cadadr
+                #:cadar
+                #:caddar
+                #:cadddr
+                #:caddr
+                #:cadr
+                #:car
+                #:cdaaar
+                #:cdaadr
+                #:cdaar
+                #:cdadar
+                #:cdaddr
+                #:cdadr
+                #:cdar
+                #:cddaar
+                #:cddadr
+                #:cddar
+                #:cdddar
+                #:cddddr
+                #:cdddr
+                #:cddr
+                #:cdr
+                #:ceiling
                 #:complexp
                 #:compute-applicable-methods
                 #:concatenate
@@ -37,6 +63,32 @@
            #:atanh
            #:atom
            #:bit
+           #:caadr
+           #:caar
+           #:cadaar
+           #:cadadr
+           #:cadar
+           #:caddar
+           #:cadddr
+           #:caddr
+           #:cadr
+           #:car
+           #:cdaaar
+           #:cdaadr
+           #:cdaar
+           #:cdadar
+           #:cdaddr
+           #:cdadr
+           #:cdar
+           #:cddaar
+           #:cddadr
+           #:cddar
+           #:cdddar
+           #:cddddr
+           #:cdddr
+           #:cddr
+           #:cdr
+           #:ceiling
            #:complexp
            #:compute-applicable-methods
            #:concatenate

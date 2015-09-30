@@ -3,3 +3,5 @@
 
 slot-missing
 slot-unbound
+
+call-method - think this is pure, need to read again

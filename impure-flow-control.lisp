@@ -4,5 +4,7 @@
 (defpackage #:cl-impure-flow
   (:use #:tamei-common)
   (:import-from :cl
-                #:abort)
-  (:export #:abort))
+                #:abort
+                #:catch)
+  (:export #:abort
+           #:catch))

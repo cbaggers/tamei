@@ -52,12 +52,6 @@ batch 6: (bit-not bit-orc1 bit-orc2 bit-vector-p bit-xor block boole both-case-p
 
 batch 7: (broadcast-stream-streams butlast byte byte-position byte-size caaaar caaadr caaar caadar caaddr)
 
-batch 8: (caadr caar cadaar cadadr cadar caddar cadddr caddr cadr call-method)
-
-batch 9: (car case catch ccase cdaaar cdaadr cdaar cdadar cdaddr cdadr)
-
-batch 10: (cdar cddaar cddadr cddar cdddar cddddr cdddr cddr cdr ceiling)
-
 batch 11: (cell-error-name cerror change-class char char-code char-downcase char-equal char-greaterp char-int char-lessp)
 
 batch 12: (char-name char-not-equal char-not-greaterp char-not-lessp char-upcase char/= char< char<= char= char>)

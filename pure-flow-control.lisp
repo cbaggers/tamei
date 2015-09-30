@@ -4,5 +4,9 @@
 (defpackage #:cl-pure-flow
   (:use #:tamei-common)
   (:import-from :cl
-                #:cond)
-  (:export #:cond))
+                #:cond
+                #:case
+                #:ccase)
+  (:export #:cond
+           #:case
+           #:ccase))
