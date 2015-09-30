@@ -12,11 +12,17 @@
                 #:acos
                 #:acosh
                 #:adjoin
+                #:complexp
+                #:compute-applicable-methods
+                #:concatenate
+                #:concatenated-stream-streams
+                #:conjugate
+                #:cons
+                #:consp
+                #:constantly
                 #:slot-boundp
                 #:slot-exists-p
                 #:slot-value
-                #:software-type
-                #:software-version
                 #:some)
   (:export #:>
            #:>=
@@ -25,9 +31,15 @@
            #:acos
            #:acosh
            #:adjoin
+           #:complexp
+           #:compute-applicable-methods
+           #:concatenate
+           #:concatenated-stream-streams
+           #:conjugate
+           #:cons
+           #:consp
+           #:constantly
            #:slot-boundp
            #:slot-exists-p
            #:slot-value
-           #:software-type
-           #:software-version
            #:some))

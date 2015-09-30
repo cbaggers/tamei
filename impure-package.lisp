@@ -4,7 +4,7 @@
 ;;;; Can throw exceptions
 ;;;;e.g. > equal sqrt
 
-(defpackage #:cl-pure
+(defpackage #:cl-impure
   (:use #:tamei-common)
   (:import-from :cl
                 #:>
@@ -16,7 +16,11 @@
                 #:adjoin
                 #:slot-boundp
                 #:slot-exists-p
-                #:sort)
+                #:sort
+                #:software-type
+                #:software-version
+                #:compute-restarts
+                )
   (:export #:>
            #:>=
            #:abs
@@ -26,4 +30,7 @@
            #:adjoin
            #:slot-boundp
            #:slot-exists-p
-           #:sort))
+           #:sort
+           #:software-type
+           #:software-version
+           #:compute-restarts))
