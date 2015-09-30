@@ -48,8 +48,6 @@ batch 3: (arithmetic-error-operands arithmetic-error-operation array-dimension a
 
 batch 4: (array-total-size arrayp ash asin asinh assert assoc assoc-if assoc-if-not atan)
 
-batch 5: (atanh atom bit bit-and bit-andc1 bit-andc2 bit-eqv bit-ior bit-nand bit-nor)
-
 batch 6: (bit-not bit-orc1 bit-orc2 bit-vector-p bit-xor block boole both-case-p boundp break)
 
 batch 7: (broadcast-stream-streams butlast byte byte-position byte-size caaaar caaadr caaar caadar caaddr)
@@ -67,8 +65,6 @@ batch 12: (char-name char-not-equal char-not-greaterp char-not-lessp char-upcase
 batch 13: (char>= character characterp check-type cis class-name class-of clear-input clear-output close)
 
 batch 14: (clrhash code-char coerce compile compile-file compile-file-pathname compiled-function-p compiler-macro-function complement complex)
-
-batch 15: (complexp compute-applicable-methods compute-restarts concatenate concatenated-stream-streams cond conjugate cons consp constantly)
 
 batch 16: (constantp continue copy-alist copy-list copy-pprint-dispatch copy-readtable copy-seq copy-structure copy-symbol copy-tree)
 
