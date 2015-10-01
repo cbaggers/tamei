@@ -172,6 +172,4 @@ batch 71: (unuse-package unwind-protect update-instance-for-different-class upda
 
 batch 73: (with-accessors with-compilation-unit with-condition-restarts with-hash-table-iterator with-input-from-string with-open-file with-open-stream with-output-to-string with-package-iterator with-simple-restart)
 
-batch 74: (with-slots with-standard-io-syntax write write-byte write-char write-line write-sequence write-string write-to-string y-or-n-p)
-
 batch 75: (yes-or-no-p zerop)

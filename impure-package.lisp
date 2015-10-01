@@ -13,7 +13,9 @@
                 #:acons
                 #:acos
                 #:acosh
+                #:add-method
                 #:adjoin
+                #:adjust-array
                 #:bit-and
                 #:bit-andc1
                 #:bit-andc2
@@ -36,7 +38,9 @@
            #:acons
            #:acos
            #:acosh
+           #:add-method
            #:adjoin
+           #:adjust-array
            #:bit-and
            #:bit-andc1
            #:bit-andc2
