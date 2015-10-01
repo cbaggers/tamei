@@ -58,7 +58,8 @@
                 #:vector
                 #:vectorp
                 #:wild-pathname-p
-                #:with-slots)
+                #:with-slots
+                #:quote)
   (:export #:>
            #:>=
            #:abs
@@ -112,4 +113,5 @@
            #:vector
            #:vectorp
            #:wild-pathname-p
-           #:with-slots))
+           #:with-slots
+           #:quote))

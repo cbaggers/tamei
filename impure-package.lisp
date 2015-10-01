@@ -31,7 +31,13 @@
                 #:compute-restarts
                 #:vector-pop
                 #:vector-push
-                #:vector-push-extend)
+                #:vector-push-extend
+                #:provide
+                #:psetf
+                #:psetq
+                #:push
+                #:pushnew
+                #:random)
   (:export #:>
            #:>=
            #:abs
@@ -56,4 +62,10 @@
            #:compute-restarts
            #:vector-pop
            #:vector-push
-           #:vector-push-extend))
+           #:vector-push-extend
+           #:provide
+           #:psetf
+           #:psetq
+           #:push
+           #:pushnew
+           #:random))

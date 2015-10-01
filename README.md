@@ -134,8 +134,6 @@ batch 51: (pprint-indent pprint-linear pprint-logical-block pprint-newline pprin
 
 batch 52: (princ-to-string print print-not-readable-object print-object print-unreadable-object probe-file proclaim prog prog* prog1)
 
-batch 53: (prog2 progn progv provide psetf psetq push pushnew quote random)
-
 batch 54: (random-state-p rassoc rassoc-if rassoc-if-not rational rationalize rationalp read read-byte read-char)
 
 batch 55: (read-char-no-hang read-delimited-list read-from-string read-line read-preserving-whitespace read-sequence readtable-case readtablep realp realpart)
