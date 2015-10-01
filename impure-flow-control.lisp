@@ -5,6 +5,8 @@
   (:use #:tamei-common)
   (:import-from :cl
                 #:abort
-                #:catch)
+                #:catch
+                #:warn)
   (:export #:abort
-           #:catch))
+           #:catch
+           #:warn))

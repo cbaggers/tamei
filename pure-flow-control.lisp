@@ -6,7 +6,9 @@
   (:import-from :cl
                 #:cond
                 #:case
-                #:ccase)
+                #:ccase
+                #:when)
   (:export #:cond
            #:case
-           #:ccase))
+           #:ccase
+           #:when))

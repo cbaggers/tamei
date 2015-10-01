@@ -27,7 +27,9 @@
                 #:software-type
                 #:software-version
                 #:compute-restarts
-                )
+                #:vector-pop
+                #:vector-push
+                #:vector-push-extend)
   (:export #:>
            #:>=
            #:abs
@@ -47,4 +49,7 @@
            #:sort
            #:software-type
            #:software-version
-           #:compute-restarts))
+           #:compute-restarts
+           #:vector-pop
+           #:vector-push
+           #:vector-push-extend))
