@@ -5,6 +5,15 @@
 (defpackage #:cl-pure
   (:use #:tamei-common)
   (:import-from :cl
+                #:*
+                #:+
+                #:-
+                #:/=
+                #:1+
+                #:1-
+                #:<
+                #:<=
+                #:=
                 #:>
                 #:>=
                 #:abs
@@ -60,7 +69,16 @@
                 #:wild-pathname-p
                 #:with-slots
                 #:quote)
-  (:export #:>
+  (:export #:*
+           #:+
+           #:-
+           #:/=
+           #:1+
+           #:1-
+           #:<
+           #:<=
+           #:=
+           #:>
            #:>=
            #:abs
            #:acons
