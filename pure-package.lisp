@@ -5,6 +5,15 @@
 (defpackage #:cl-pure
   (:use #:tamei-common)
   (:import-from :cl
+                #:*
+                #:+
+                #:-
+                #:/=
+                #:1+
+                #:1-
+                #:<
+                #:<=
+                #:=
                 #:>
                 #:>=
                 #:abs
@@ -53,7 +62,16 @@
                 #:slot-exists-p
                 #:slot-value
                 #:some)
-  (:export #:>
+  (:export #:*
+           #:+
+           #:-
+           #:/=
+           #:1+
+           #:1-
+           #:<
+           #:<=
+           #:=
+           #:>
            #:>=
            #:abs
            #:acons
