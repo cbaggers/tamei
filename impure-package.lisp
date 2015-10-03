@@ -13,7 +13,9 @@
                 #:acons
                 #:acos
                 #:acosh
+                #:add-method
                 #:adjoin
+                #:adjust-array
                 #:bit-and
                 #:bit-andc1
                 #:bit-andc2
@@ -27,14 +29,24 @@
                 #:software-type
                 #:software-version
                 #:compute-restarts
-                )
+                #:vector-pop
+                #:vector-push
+                #:vector-push-extend
+                #:provide
+                #:psetf
+                #:psetq
+                #:push
+                #:pushnew
+                #:random)
   (:export #:>
            #:>=
            #:abs
            #:acons
            #:acos
            #:acosh
+           #:add-method
            #:adjoin
+           #:adjust-array
            #:bit-and
            #:bit-andc1
            #:bit-andc2
@@ -47,4 +59,13 @@
            #:sort
            #:software-type
            #:software-version
-           #:compute-restarts))
+           #:compute-restarts
+           #:vector-pop
+           #:vector-push
+           #:vector-push-extend
+           #:provide
+           #:psetf
+           #:psetq
+           #:push
+           #:pushnew
+           #:random))

@@ -61,7 +61,14 @@
                 #:slot-boundp
                 #:slot-exists-p
                 #:slot-value
-                #:some)
+                #:some
+                #:values
+                #:values-list
+                #:vector
+                #:vectorp
+                #:wild-pathname-p
+                #:with-slots
+                #:quote)
   (:export #:*
            #:+
            #:-
@@ -118,4 +125,11 @@
            #:slot-boundp
            #:slot-exists-p
            #:slot-value
-           #:some))
+           #:some
+           #:values
+           #:values-list
+           #:vector
+           #:vectorp
+           #:wild-pathname-p
+           #:with-slots
+           #:quote))

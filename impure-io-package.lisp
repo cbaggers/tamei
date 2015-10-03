@@ -4,7 +4,22 @@
 (defpackage #:cl-impure-io
   (:use #:tamei-common)
   (:import-from :cl
-                #:add-method
-                #:adjust-array)
-  (:export #:add-method
-           #:adjust-array))
+                #:with-standard-io-syntax
+                #:write
+                #:write-byte
+                #:write-char
+                #:write-line
+                #:write-sequence
+                #:write-string
+                #:write-to-string
+                #:y-or-n-p)
+  (:export
+   #:with-standard-io-syntax
+   #:write
+   #:write-byte
+   #:write-char
+   #:write-line
+   #:write-sequence
+   #:write-string
+   #:write-to-string
+   #:y-or-n-p))

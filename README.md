@@ -132,8 +132,6 @@ batch 51: (pprint-indent pprint-linear pprint-logical-block pprint-newline pprin
 
 batch 52: (princ-to-string print print-not-readable-object print-object print-unreadable-object probe-file proclaim prog prog* prog1)
 
-batch 53: (prog2 progn progv provide psetf psetq push pushnew quote random)
-
 batch 54: (random-state-p rassoc rassoc-if rassoc-if-not rational rationalize rationalp read read-byte read-char)
 
 batch 55: (read-char-no-hang read-delimited-list read-from-string read-line read-preserving-whitespace read-sequence readtable-case readtablep realp realpart)
@@ -168,10 +166,6 @@ batch 70: (type-of typecase typep unbound-slot-instance unexport unintern union 
 
 batch 71: (unuse-package unwind-protect update-instance-for-different-class update-instance-for-redefined-class upgraded-array-element-type upgraded-complex-part-type upper-case-p use-package use-value user-homedir-pathname)
 
-batch 72: (values values-list vector vector-pop vector-push vector-push-extend vectorp warn when wild-pathname-p)
-
 batch 73: (with-accessors with-compilation-unit with-condition-restarts with-hash-table-iterator with-input-from-string with-open-file with-open-stream with-output-to-string with-package-iterator with-simple-restart)
-
-batch 74: (with-slots with-standard-io-syntax write write-byte write-char write-line write-sequence write-string write-to-string y-or-n-p)
 
 batch 75: (yes-or-no-p zerop)
