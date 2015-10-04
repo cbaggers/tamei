@@ -5,6 +5,15 @@
 (defpackage #:cl-pure
   (:use #:tamei-common)
   (:import-from :cl
+                #:*
+                #:+
+                #:-
+                #:/=
+                #:1+
+                #:1-
+                #:<
+                #:<=
+                #:=
                 #:>
                 #:>=
                 #:abs
@@ -71,7 +80,16 @@
                 #:hash-table-size
                 #:hash-table-test
                 #:host-namestring)
-  (:export #:>
+  (:export #:*
+           #:+
+           #:-
+           #:/=
+           #:1+
+           #:1-
+           #:<
+           #:<=
+           #:=
+           #:>
            #:>=
            #:abs
            #:acons

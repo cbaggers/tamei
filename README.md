@@ -50,8 +50,6 @@ Let me know, Im happy to tweak this as long as it stays in line with the origina
 Symbols still to categorize
 ===========================
 
-batch 0: (* + - / /= 1+ 1- < <= =)
-
 batch 2: (adjustable-array-p allocate-instance alpha-char-p alphanumericp and append apply apropos apropos-list aref)
 
 batch 3: (arithmetic-error-operands arithmetic-error-operation array-dimension array-dimensions array-displacement array-element-type array-has-fill-pointer-p array-in-bounds-p array-rank array-row-major-index)
