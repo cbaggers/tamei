@@ -14,6 +14,16 @@ Tamei is a very simple project, it splits common lisp into 6 packages:
 
 It does not add/remove any features to/from common lisp. It purely exists to differentiate.
 
+Notes on progress
+=================
+Issues over the concept have be raised and are interesting. These include:
+- Categorising over purity is a mistake as destructive things can be used purely (nconc on freshly cons'd lists)
+- "Does binding count as meta-level side-effects? Binding of top-level variables? Binding of special variables? Binding of lexical variables? Handling conditions?"
+
+I like these and while I will be continuing on this, I do need to come up with better categorizations. This doesnt slow this project down as recategorising will be easier once this initial work is done.
+
+
+
 Want to contribute?
 ===================
 That's awesome! thankyou. The best way for us to get this done quickly is the following
@@ -89,10 +99,6 @@ batch 28: (floor fmakunbound force-output format formatter fourth fresh-line fro
 batch 29: (function function-keywords function-lambda-expression functionp gcd gensym gentemp get get-decoded-time get-dispatch-macro-character)
 
 batch 30: (get-internal-real-time get-internal-run-time get-macro-character get-output-stream-string get-properties get-setf-expansion get-universal-time getf gethash go)
-
-batch 31: (graphic-char-p handler-bind handler-case hash-table-count hash-table-p hash-table-rehash-size hash-table-rehash-threshold hash-table-size hash-table-test host-namestring)
-
-batch 32: (identity if ignore-errors imagpart import in-package incf initialize-instance input-stream-p inspect)
 
 batch 33: (integer-decode-float integer-length integerp interactive-stream-p intern intersection invalid-method-error invoke-debugger invoke-restart invoke-restart-interactively)
 

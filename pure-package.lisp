@@ -59,7 +59,18 @@
                 #:vectorp
                 #:wild-pathname-p
                 #:with-slots
-                #:quote)
+                #:quote
+                #:identity
+                #:imagpart
+                #:input-stream-p
+                #:graphic-char-p
+                #:hash-table-count
+                #:hash-table-p
+                #:hash-table-rehash-size
+                #:hash-table-rehash-threshold
+                #:hash-table-size
+                #:hash-table-test
+                #:host-namestring)
   (:export #:>
            #:>=
            #:abs
@@ -114,4 +125,15 @@
            #:vectorp
            #:wild-pathname-p
            #:with-slots
-           #:quote))
+           #:quote
+           #:identity
+           #:imagpart
+           #:input-stream-p
+           #:graphic-char-p
+           #:hash-table-count
+           #:hash-table-p
+           #:hash-table-rehash-size
+           #:hash-table-rehash-threshold
+           #:hash-table-size
+           #:hash-table-test
+           #:host-namestring))

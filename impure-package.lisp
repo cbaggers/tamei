@@ -37,7 +37,11 @@
                 #:psetq
                 #:push
                 #:pushnew
-                #:random)
+                #:random
+                #:import
+                #:in-package
+                #:incf
+                #:inspect)
   (:export #:>
            #:>=
            #:abs
@@ -68,4 +72,8 @@
            #:psetq
            #:push
            #:pushnew
-           #:random))
+           #:random
+           #:import
+           #:in-package
+           #:incf
+           #:inspect))

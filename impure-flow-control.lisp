@@ -14,7 +14,9 @@
                 #:prog2
                 #:progn
                 #:warn
-                #:when)
+                #:when
+                #:handler-bind
+                #:handler-case)
   (:export #:abort
            #:catch
            #:cond
@@ -24,4 +26,6 @@
            #:prog2
            #:progn
            #:warn
-           #:when))
+           #:when
+           #:handler-bind
+           #:handler-case))
