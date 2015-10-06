@@ -79,7 +79,24 @@
                 #:hash-table-rehash-threshold
                 #:hash-table-size
                 #:hash-table-test
-                #:host-namestring)
+                #:host-namestring
+                #:seventh
+                #:signum
+                #:simple-bit-vector-p
+                #:simple-condition-format-arguments
+                #:simple-condition-format-control
+                #:simple-string-p
+                #:simple-vector-p
+                #:sin
+                #:sinh
+                #:sixth
+                #:special-operator-p
+                #:sqrt
+                #:standard-char-p
+                #:stream-element-type
+                #:stream-error-stream
+                #:stream-external-format
+                #:streamp)
   (:export #:*
            #:+
            #:-
@@ -154,4 +171,21 @@
            #:hash-table-rehash-threshold
            #:hash-table-size
            #:hash-table-test
-           #:host-namestring))
+           #:host-namestring
+           #:seventh
+           #:signum
+           #:simple-bit-vector-p
+           #:simple-condition-format-arguments
+           #:simple-condition-format-control
+           #:simple-string-p
+           #:simple-vector-p
+           #:sin
+           #:sinh
+           #:sixth
+           #:special-operator-p
+           #:sqrt
+           #:standard-char-p
+           #:stream-element-type
+           #:stream-error-stream
+           #:stream-external-format
+           #:streamp))

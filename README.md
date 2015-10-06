@@ -150,12 +150,6 @@ batch 58: (return-from revappend reverse room rotatef round row-major-aref rplac
 
 batch 59: (scale-float schar search second set set-difference set-dispatch-macro-character set-exclusive-or set-macro-character set-pprint-dispatch)
 
-batch 60: (set-syntax-from-char setf setq seventh shadow shadowing-import shared-initialize shiftf short-site-name signal)
-
-batch 61: (signum simple-bit-vector-p simple-condition-format-arguments simple-condition-format-control simple-string-p simple-vector-p sin sinh sixth sleep)
-
-batch 63: (special-operator-p sqrt stable-sort standard-char-p step store-value stream-element-type stream-error-stream stream-external-format streamp)
-
 batch 64: (string string-capitalize string-downcase string-equal string-greaterp string-left-trim string-lessp string-not-equal string-not-greaterp string-not-lessp)
 
 batch 65: (string-right-trim string-trim string-upcase string/= string< string<= string= string> string>= stringp)

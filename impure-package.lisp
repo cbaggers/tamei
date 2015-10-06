@@ -41,7 +41,16 @@
                 #:import
                 #:in-package
                 #:incf
-                #:inspect)
+                #:inspect
+                #:set-syntax-from-char
+                #:setf
+                #:setq
+                #:shadow
+                #:shadowing-import
+                #:shared-initialize
+                #:shiftf
+                #:sleep
+                #:stable-sort)
   (:export #:>
            #:>=
            #:abs
@@ -76,4 +85,13 @@
            #:import
            #:in-package
            #:incf
-           #:inspect))
+           #:inspect
+           #:set-syntax-from-char
+           #:setf
+           #:setq
+           #:shadow
+           #:shadowing-import
+           #:shared-initialize
+           #:shiftf
+           #:sleep
+           #:stable-sort))

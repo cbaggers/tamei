@@ -16,7 +16,9 @@
                 #:warn
                 #:when
                 #:handler-bind
-                #:handler-case)
+                #:handler-case
+                #:signal
+                #:store-value)
   (:export #:abort
            #:catch
            #:cond
@@ -28,4 +30,6 @@
            #:warn
            #:when
            #:handler-bind
-           #:handler-case))
+           #:handler-case
+           #:signal
+           #:store-value))

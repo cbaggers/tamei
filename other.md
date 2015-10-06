@@ -8,3 +8,6 @@ call-method - think this is pure, need to read again
 
 ignore-errors
 initialize-instance
+
+short-site-name
+step ;;debugging
