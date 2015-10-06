@@ -96,7 +96,39 @@
                 #:stream-element-type
                 #:stream-error-stream
                 #:stream-external-format
-                #:streamp)
+                #:streamp
+                #:make-list
+                #:make-package
+                #:make-pathname
+                #:make-random-state
+                #:make-sequence
+                #:make-string
+                #:make-string-input-stream
+                #:make-string-output-stream
+                #:make-symbol
+                #:make-synonym-stream
+                #:make-two-way-stream
+                #:mapcar
+                #:maplist
+                #:mask-field
+                #:max
+                #:member
+                #:member-if
+                #:member-if-not
+                #:merge-pathnames
+                #:method-qualifiers
+                #:min
+                #:minusp
+                #:mismatch
+                #:mod
+                #:multiple-value-call
+                #:multiple-value-list
+                #:name-char
+                #:namestring
+                #:ninth
+                #:not
+                #:notany
+                #:notevery)
   (:export #:*
            #:+
            #:-
@@ -188,4 +220,36 @@
            #:stream-element-type
            #:stream-error-stream
            #:stream-external-format
-           #:streamp))
+           #:streamp
+           #:make-list
+           #:make-package
+           #:make-pathname
+           #:make-random-state
+           #:make-sequence
+           #:make-string
+           #:make-string-input-stream
+           #:make-string-output-stream
+           #:make-symbol
+           #:make-synonym-stream
+           #:make-two-way-stream
+           #:mapcar
+           #:maplist
+           #:mask-field
+           #:max
+           #:member
+           #:member-if
+           #:member-if-not
+           #:merge-pathnames
+           #:method-qualifiers
+           #:min
+           #:minusp
+           #:mismatch
+           #:mod
+           #:multiple-value-call
+           #:multiple-value-list
+           #:name-char
+           #:namestring
+           #:ninth
+           #:not
+           #:notany
+           #:notevery))

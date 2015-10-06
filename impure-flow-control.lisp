@@ -18,7 +18,11 @@
                 #:handler-bind
                 #:handler-case
                 #:signal
-                #:store-value)
+                #:store-value
+                #:method-combination-error
+                #:muffle-warning
+                #:multiple-value-prog1
+                #:multiple-value-bind)
   (:export #:abort
            #:catch
            #:cond
@@ -32,4 +36,8 @@
            #:handler-bind
            #:handler-case
            #:signal
-           #:store-value))
+           #:store-value
+           #:method-combination-error
+           #:muffle-warning
+           #:multiple-value-prog1
+           #:multiple-value-bind))

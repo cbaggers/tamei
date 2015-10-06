@@ -50,7 +50,29 @@
                 #:shared-initialize
                 #:shiftf
                 #:sleep
-                #:stable-sort)
+                #:stable-sort
+                #:make-instances-obsolete
+                #:make-load-form ;; cant guarentee
+                #:make-load-form-saving-slots ;; cant guarentee
+                #:makunbound
+                #:map-into
+                #:map ;; supplying nil is relying on sideffects
+                #:mapc ;; function only run for side effects as results arent returned
+                #:mapcan
+                #:mapcon
+                #:maphash ;; function must side effect
+                #:mapl
+                #:merge
+                #:multiple-value-setq
+                #:nbutlast
+                #:nconc
+                #:nintersection
+                #:nreconc
+                #:nreverse
+                #:nset-difference
+                #:nset-exclusive-or
+                #:nstring-capitalize
+                #:nstring-downcase)
   (:export #:>
            #:>=
            #:abs
@@ -94,4 +116,26 @@
            #:shared-initialize
            #:shiftf
            #:sleep
-           #:stable-sort))
+           #:stable-sort
+           #:make-instances-obsolete
+           #:make-load-form
+           #:make-load-form-saving-slots
+           #:makunbound
+           #:map-into
+           #:map
+           #:mapc
+           #:mapcan
+           #:mapcon
+           #:maphash
+           #:mapl
+           #:merge
+           #:multiple-value-setq
+           #:nbutlast
+           #:nconc
+           #:nintersection
+           #:nreconc
+           #:nreverse
+           #:nset-difference
+           #:nset-exclusive-or
+           #:nstring-capitalize
+           #:nstring-downcase))

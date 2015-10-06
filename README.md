@@ -112,18 +112,6 @@ batch 38: (logxor long-site-name loop loop-finish lower-case-p machine-instance 
 
 batch 39: (macroexpand-1 macrolet make-array make-broadcast-stream make-concatenated-stream make-condition make-dispatch-macro-character make-echo-stream make-hash-table make-instance)
 
-batch 40: (make-instances-obsolete make-list make-load-form make-load-form-saving-slots make-package make-pathname make-random-state make-sequence make-string make-string-input-stream)
-
-batch 41: (make-string-output-stream make-symbol make-synonym-stream make-two-way-stream makunbound map map-into mapc mapcan mapcar)
-
-batch 42: (mapcon maphash mapl maplist mask-field max member member-if member-if-not merge)
-
-batch 43: (merge-pathnames method-combination-error method-qualifiers min minusp mismatch mod muffle-warning multiple-value-bind multiple-value-call)
-
-batch 44: (multiple-value-list multiple-value-prog1 multiple-value-setq name-char namestring nbutlast nconc nintersection ninth no-applicable-method)
-
-batch 45: (no-next-method not notany notevery nreconc nreverse nset-difference nset-exclusive-or nstring-capitalize nstring-downcase)
-
 batch 46: (nstring-upcase nsublis nsubst nsubst-if nsubst-if-not nsubstitute nsubstitute-if nsubstitute-if-not nth nth-value)
 
 batch 47: (nthcdr null numberp numerator nunion oddp open open-stream-p or output-stream-p)

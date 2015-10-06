@@ -11,3 +11,8 @@ initialize-instance
 
 short-site-name
 step ;;debugging
+
+no-applicable-method
+no-next-method
+
+;; methods are interesting, if you can make it impure is the root impure?
