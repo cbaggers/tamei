@@ -60,18 +60,6 @@ batch 6: (bit-not bit-orc1 bit-orc2 bit-vector-p bit-xor block boole both-case-p
 
 batch 7: (broadcast-stream-streams butlast byte byte-position byte-size caaaar caaadr caaar caadar caaddr)
 
-batch 11: (cell-error-name cerror change-class char char-code char-downcase char-equal char-greaterp char-int char-lessp)
-
-batch 12: (char-name char-not-equal char-not-greaterp char-not-lessp char-upcase char/= char< char<= char= char>)
-
-batch 13: (char>= character characterp check-type cis class-name class-of clear-input clear-output close)
-
-batch 14: (clrhash code-char coerce compile compile-file compile-file-pathname compiled-function-p compiler-macro-function complement complex)
-
-batch 16: (constantp continue copy-alist copy-list copy-pprint-dispatch copy-readtable copy-seq copy-structure copy-symbol copy-tree)
-
-batch 17: (cos cosh count count-if count-if-not ctypecase decf declaim decode-float decode-universal-time)
-
 batch 18: (defclass defconstant defgeneric define-compiler-macro define-condition define-method-combination define-modify-macro define-setf-expander define-symbol-macro defmacro)
 
 batch 19: (defmethod defpackage defparameter defsetf defstruct deftype defun defvar delete delete-duplicates)

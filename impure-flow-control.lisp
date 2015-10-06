@@ -22,7 +22,10 @@
                 #:method-combination-error
                 #:muffle-warning
                 #:multiple-value-prog1
-                #:multiple-value-bind)
+                #:multiple-value-bind
+                #:cerror
+                #:continue
+                #:ctypecase)
   (:export #:abort
            #:catch
            #:cond
@@ -40,4 +43,7 @@
            #:method-combination-error
            #:muffle-warning
            #:multiple-value-prog1
-           #:multiple-value-bind))
+           #:multiple-value-bind
+           #:cerror
+           #:continue
+           #:ctypecase))

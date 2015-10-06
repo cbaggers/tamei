@@ -72,7 +72,15 @@
                 #:nset-difference
                 #:nset-exclusive-or
                 #:nstring-capitalize
-                #:nstring-downcase)
+                #:nstring-downcase
+                #:change-class
+                #:clrhash
+                #:compile
+                #:compile-file
+                #:compile-file-pathname
+                #:compiled-function-p
+                #:compiler-macro-function
+                #:decf)
   (:export #:>
            #:>=
            #:abs
@@ -138,4 +146,12 @@
            #:nset-difference
            #:nset-exclusive-or
            #:nstring-capitalize
-           #:nstring-downcase))
+           #:nstring-downcase
+           #:change-class
+           #:clrhash
+           #:compile
+           #:compile-file
+           #:compile-file-pathname
+           #:compiled-function-p
+           #:compiler-macro-function
+           #:decf))

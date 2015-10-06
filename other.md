@@ -15,4 +15,7 @@ step ;;debugging
 no-applicable-method
 no-next-method
 
+check-type ;; throw exception by design
+declaim
+
 ;; methods are interesting, if you can make it impure is the root impure?

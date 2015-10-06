@@ -128,7 +128,51 @@
                 #:ninth
                 #:not
                 #:notany
-                #:notevery)
+                #:notevery
+                #:cell-error-name
+                #:char
+                #:char-code
+                #:char-downcase
+                #:char-equal
+                #:char-greaterp
+                #:char-int
+                #:char-lessp
+                #:char-name
+                #:char-not-equal
+                #:char-not-greaterp
+                #:char-not-lessp
+                #:char-upcase
+                #:char/=
+                #:char<
+                #:char<=
+                #:char=
+                #:char>
+                #:char>=
+                #:character
+                #:characterp
+                #:cis
+                #:class-name
+                #:class-of
+                #:code-char
+                #:coerce
+                #:complement
+                #:complex
+                #:constantp
+                #:copy-alist
+                #:copy-list
+                #:copy-pprint-dispatch
+                #:copy-readtable
+                #:copy-seq
+                #:copy-structure
+                #:copy-symbol
+                #:copy-tree
+                #:cos
+                #:cosh
+                #:count
+                #:count-if
+                #:count-if-not
+                #:decode-float
+                #:decode-universal-time)
   (:export #:*
            #:+
            #:-
@@ -252,4 +296,48 @@
            #:ninth
            #:not
            #:notany
-           #:notevery))
+           #:notevery
+           #:cell-error-name
+           #:char
+           #:char-code
+           #:char-downcase
+           #:char-equal
+           #:char-greaterp
+           #:char-int
+           #:char-lessp
+           #:char-name
+           #:char-not-equal
+           #:char-not-greaterp
+           #:char-not-lessp
+           #:char-upcase
+           #:char/=
+           #:char<
+           #:char<=
+           #:char=
+           #:char>
+           #:char>=
+           #:character
+           #:characterp
+           #:cis
+           #:class-name
+           #:class-of
+           #:code-char
+           #:coerce
+           #:complement
+           #:complex
+           #:constantp
+           #:copy-alist
+           #:copy-list
+           #:copy-pprint-dispatch
+           #:copy-readtable
+           #:copy-seq
+           #:copy-structure
+           #:copy-symbol
+           #:copy-tree
+           #:cos
+           #:cosh
+           #:count
+           #:count-if
+           #:count-if-not
+           #:decode-float
+           #:decode-universal-time))

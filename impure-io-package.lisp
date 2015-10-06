@@ -12,7 +12,10 @@
                 #:write-sequence
                 #:write-string
                 #:write-to-string
-                #:y-or-n-p)
+                #:y-or-n-p
+                #:clear-input
+                #:clear-output
+                #:close)
   (:export
    #:with-standard-io-syntax
    #:write
@@ -22,4 +25,7 @@
    #:write-sequence
    #:write-string
    #:write-to-string
-   #:y-or-n-p))
+   #:y-or-n-p
+   #:clear-input
+   #:clear-output
+   #:close))
