@@ -128,8 +128,6 @@ batch 59: (scale-float schar search second set set-difference set-dispatch-macro
 
 batch 64: (string string-capitalize string-downcase string-equal string-greaterp string-left-trim string-lessp string-not-equal string-not-greaterp string-not-lessp)
 
-batch 65: (string-right-trim string-trim string-upcase string/= string< string<= string= string> string>= stringp)
-
 batch 66: (sublis subseq subsetp subst subst-if subst-if-not substitute substitute-if substitute-if-not subtypep)
 
 batch 67: (svref sxhash symbol-function symbol-macrolet symbol-name symbol-package symbol-plist symbol-value symbolp synonym-stream-symbol)

@@ -172,7 +172,17 @@
                 #:count-if
                 #:count-if-not
                 #:decode-float
-                #:decode-universal-time)
+                #:decode-universal-time
+		#:string-right-trim
+		#:string-trim
+		#:string-upcase
+		#:string/=
+		#:string<
+		#:string<=
+		#:string=
+		#:string>
+		#:string>=
+		#:stringp)
   (:export #:*
            #:+
            #:-
@@ -340,4 +350,14 @@
            #:count-if
            #:count-if-not
            #:decode-float
-           #:decode-universal-time))
+           #:decode-universal-time
+	   #:string-right-trim
+	   #:string-trim
+	   #:string-upcase
+	   #:string/=
+	   #:string<
+	   #:string<=
+	   #:string=
+	   #:string>
+	   #:string>=
+	   #:stringp))
