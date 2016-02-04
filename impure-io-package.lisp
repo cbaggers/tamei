@@ -4,6 +4,7 @@
 (defpackage #:cl-impure-io
   (:use #:tamei-common)
   (:import-from :cl
+                #:apropos
                 #:with-standard-io-syntax
                 #:write
                 #:write-byte
@@ -17,6 +18,7 @@
                 #:clear-output
                 #:close)
   (:export
+   #:apropos
    #:with-standard-io-syntax
    #:write
    #:write-byte

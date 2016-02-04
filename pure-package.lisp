@@ -21,6 +21,15 @@
                 #:acos
                 #:acosh
                 #:adjoin
+                #:adjustable-array-p
+                #:allocate-instance
+                #:alpha-char-p
+                #:alphanumericp
+                #:and
+                #:append
+                #:apply
+                #:apropos-list
+                #:aref
                 #:atanh
                 #:atom
                 #:bit
@@ -189,6 +198,15 @@
            #:acos
            #:acosh
            #:adjoin
+           #:adjustable-array-p
+           #:allocate-instance
+           #:alpha-char-p
+           #:alphanumericp
+           #:and
+           #:append
+           #:apply
+           #:apropos-list
+           #:aref
            #:atanh
            #:atom
            #:bit
