@@ -1,5 +1,8 @@
 (named-readtables:in-readtable :fn.reader)
 
+(defparameter *more-pure*
+  '(cell-error-name package-use-list broadcast-stream-streams simple-condition-format-arguments echo-stream-output-stream two-way-stream-input-stream software-version readtable-case pathname-device arithmetic-error-operands pathname-match-p slot-missing make-random-state make-two-way-stream pathname-host directory-namestring get-setf-expansion host-namestring file-namestring pathname-type make-concatenated-stream mapc type-error-datum lisp-implementation-type make-condition translate-pathname find-method machine-version pathname-directory make-string-output-stream type-error-expected-type function-keywords echo-stream-input-stream machine-instance software-type long-site-name concatenated-stream-streams macro-function make-broadcast-stream short-site-name find-class pathnamep make-string-input-stream maphash pathname-version wild-pathname-p compiler-macro-function arithmetic-error-operation get-macro-character package-used-by-list namestring machine-type package-shadowing-symbols make-load-form-saving-slots two-way-stream-output-stream make-load-form get-dispatch-macro-character method-qualifiers pathname find-symbol make-echo-stream symbol-package restart-name class-name pathname-name stream-error-stream package-error-package))
+
 (defparameter *pure*
   '(;; predicates
 
