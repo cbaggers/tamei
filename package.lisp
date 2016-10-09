@@ -5,8 +5,3 @@
   (:use :cl)
   ;;(:export #:in-package)
   )
-
-(defpackage #:tamei.functions.impure
-  (:use :cl)
-  ;;(:export #:in-package)
-  )

@@ -128,7 +128,8 @@
 
 
     ;; Symbols (getf is an accessor..does that matter?)
-    get getf symbol-plist symbol-name
+    copy-symbol symbol-plist symbol-name
+    get getf
 
 
     ;; Characters
