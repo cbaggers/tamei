@@ -1,31 +1,4 @@
-(uiop:define-package #:tamei.uncategorized.special-operators (:use)
-  (:import-from
-   :cl
-   :block
-   :catch
-   :eval-when
-   :flet
-   :function
-   :go
-   :if
-   :labels
-   :let
-   :let*
-   :load-time-value
-   :locally
-   :macrolet
-   :multiple-value-call
-   :multiple-value-prog1
-   :progn
-   :progv
-   :quote
-   :return-from
-   :setq
-   :symbol-macrolet
-   :tagbody
-   :the
-   :throw
-   :unwind-protect)
+(uiop:define-package #:tamei.uncategorized.special-operators (:use :cl)
   (:export
    :block
    :catch
