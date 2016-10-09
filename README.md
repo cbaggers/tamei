@@ -1,5 +1,4 @@
-Tamei
-=====
+# Tamei
 
 `Tamei (Hebrew adjective, "ritually impure")` :)
 

@@ -153,8 +153,9 @@
    :constantly
    :get-setf-expansion
    :compiled-function-p
-   :fboundp
    :functionp
+   :function-lambda-expression
+   :gensym
 
    ;;
    ;; Hash Tables
@@ -310,13 +311,13 @@
 
    ;;
    ;; Symbols
+   :make-symbol
    :copy-symbol
    :symbol-plist
    :symbol-name
    :get
    :getf
    :symbol-package
-   :boundp
    :symbolp
    :keywordp
 
@@ -382,6 +383,8 @@
 
    ;;
    ;; Objects
+   :find-class
+   :no-applicable-method
    :unbound-slot-instance
    :slot-value
    :class-of
@@ -394,6 +397,7 @@
    :class-name
    :slot-boundp
    :slot-exists-p
+   :compute-applicable-methods
 
    ;;
    ;; Files
@@ -432,6 +436,7 @@
    :restart-name
    :simple-condition-format-arguments
    :cell-error-name
+   :invalid-method-error
 
    ;;
    ;; Streams
@@ -456,6 +461,7 @@
    :open-stream-p
    :output-stream-p
    :streamp
+   :file-string-length
 
    ;;
    ;; Structures
@@ -484,6 +490,7 @@
 
    ;;
    ;; Filenames
+   :merge-pathnames
    :directory-namestring
    :pathname-device
    :pathname-directory
@@ -499,6 +506,8 @@
    :host-namestring
    :file-namestring
    :pathname
+   :parse-namestring
+   :logical-pathname-translations
 
    ;;
    ;; Evaluation & Compilation

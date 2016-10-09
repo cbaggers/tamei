@@ -33,6 +33,8 @@
 
    ;;
    ;; Streams
+   :file-length
+   :listen
    :open
    :peek-char
    :read
@@ -69,10 +71,16 @@
    :makunbound
    :set
    :remprop
+   :boundp
+   :symbol-function
+   :symbol-value
+   :gentemp
 
    ;;
    ;; Data Flow & Controlo
    :fmakunbound
+   :fdefinition
+   :fboundp
 
    ;;
    ;; Printer
@@ -149,6 +157,8 @@
    :ensure-directories-exist
 
    ;; Packages
+   :list-all-packages
+   :make-package
    :find-all-symbols
    :export
    :import
@@ -163,6 +173,7 @@
    :shadow
    :shadowing-import
 
+
    ;; Filenames
    :load-logical-pathname-translations
    :logical-pathname
@@ -171,6 +182,8 @@
    :enough-namestring
 
    ;; Conditions
+   :invoke-restart
+   :use-value
    :cerror
    :error
    :method-combination-error
@@ -218,6 +231,7 @@
    :dribble
    :room
    :sleep
+   :documentation
 
    ;; Hash Table
    :clrhash
