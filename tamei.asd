@@ -5,5 +5,6 @@
   :author "Baggers (techsnuffle@gmail.com)"
   :license "BSD - 2 Clause"
   :serial t
-  :components ((:file "package")
+  :components ((:file "constants")
+               (:file "package")
                ))
