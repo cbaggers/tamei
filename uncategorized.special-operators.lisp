@@ -1,54 +1,54 @@
 (uiop:define-package #:tamei.uncategorized.special-operators (:use)
   (:import-from
    :cl
-   :flet
-   :let
-   :return-from
-   :load-time-value
-   :progn
-   :setq
-   :catch
-   :go
-   :tagbody
    :block
-   :the
-   :symbol-macrolet
-   :throw
-   :macrolet
-   :multiple-value-prog1
+   :catch
    :eval-when
-   :if
-   :progv
-   :unwind-protect
+   :flet
    :function
-   :let*
+   :go
+   :if
    :labels
+   :let
+   :let*
+   :load-time-value
    :locally
+   :macrolet
    :multiple-value-call
-   :quote)
+   :multiple-value-prog1
+   :progn
+   :progv
+   :quote
+   :return-from
+   :setq
+   :symbol-macrolet
+   :tagbody
+   :the
+   :throw
+   :unwind-protect)
   (:export
-   :flet
-   :let
-   :return-from
-   :load-time-value
-   :progn
-   :setq
-   :catch
-   :go
-   :tagbody
    :block
-   :the
-   :symbol-macrolet
-   :throw
-   :macrolet
-   :multiple-value-prog1
+   :catch
    :eval-when
-   :if
-   :progv
-   :unwind-protect
+   :flet
    :function
-   :let*
+   :go
+   :if
    :labels
+   :let
+   :let*
+   :load-time-value
    :locally
+   :macrolet
    :multiple-value-call
-   :quote))
+   :multiple-value-prog1
+   :progn
+   :progv
+   :quote
+   :return-from
+   :setq
+   :symbol-macrolet
+   :tagbody
+   :the
+   :throw
+   :unwind-protect))
