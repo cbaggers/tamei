@@ -8,7 +8,7 @@
 
 (setf *impure* '())
 
-(setf *unknown* '(use-value symbol-value parse-namestring fdefinition documentation gentemp file-string-length invoke-restart make-symbol make-package logical-pathname-translations gensym merge-pathnames no-applicable-method function-lambda-expression file-length symbol-function translate-logical-pathname compute-applicable-methods listen invalid-method-error list-all-packages find-class))
+(setf *unknown* '())
 
 (defun test ()
   (while *names*
