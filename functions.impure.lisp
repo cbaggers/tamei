@@ -56,7 +56,6 @@
      :write-to-string
      :clear-input
      :clear-output
-     :close
      :finish-output
      :force-output
      :fresh-line
@@ -99,7 +98,6 @@
      :princ-to-string
      :print
      :print-not-readable-object
-     :print-object
      :format
      :set-pprint-dispatch
 
@@ -146,6 +144,7 @@
      :merge
      :fill
 
+     ;;
      ;; Files
      :delete-file
      :file-position
@@ -156,6 +155,7 @@
      :directory
      :ensure-directories-exist
 
+     ;;
      ;; Packages
      :list-all-packages
      :make-package
@@ -174,6 +174,7 @@
      :shadowing-import
 
 
+     ;;
      ;; Filenames
      :load-logical-pathname-translations
      :logical-pathname
@@ -181,6 +182,7 @@
      :user-homedir-pathname
      :enough-namestring
 
+     ;;
      ;; Conditions
      :invoke-restart
      :use-value
@@ -199,26 +201,14 @@
      :signal
      :store-value
 
+     ;;
      ;; Objects
-     :add-method
-     :no-next-method
-     :remove-method
-     :change-class
-     :update-instance-for-different-class
-     :update-instance-for-redefined-class
-     :allocate-instance
-     :initialize-instance
-     :make-instance
-     :make-instances-obsolete
-     :reinitialize-instance
      :ensure-generic-function
-     :shared-initialize
      :slot-makunbound
-     :slot-unbound
 
+     ;;
      ;; Environment
      :describe
-     :describe-object
      :disassemble
      :ed
      :get-decoded-time
@@ -231,12 +221,11 @@
      :dribble
      :room
      :sleep
-     :documentation
 
+     ;;
      ;; Hash Table
      :clrhash
-     :remhash
-     )
+     :remhash)
   (:export
    ;;
    ;; Arrays
@@ -293,7 +282,6 @@
    :write-to-string
    :clear-input
    :clear-output
-   :close
    :finish-output
    :force-output
    :fresh-line
@@ -336,7 +324,6 @@
    :princ-to-string
    :print
    :print-not-readable-object
-   :print-object
    :format
    :set-pprint-dispatch
 
@@ -383,6 +370,7 @@
    :merge
    :fill
 
+   ;;
    ;; Files
    :delete-file
    :file-position
@@ -393,6 +381,7 @@
    :directory
    :ensure-directories-exist
 
+   ;;
    ;; Packages
    :list-all-packages
    :make-package
@@ -411,6 +400,7 @@
    :shadowing-import
 
 
+   ;;
    ;; Filenames
    :load-logical-pathname-translations
    :logical-pathname
@@ -418,6 +408,7 @@
    :user-homedir-pathname
    :enough-namestring
 
+   ;;
    ;; Conditions
    :invoke-restart
    :use-value
@@ -436,26 +427,14 @@
    :signal
    :store-value
 
+   ;;
    ;; Objects
-   :add-method
-   :no-next-method
-   :remove-method
-   :change-class
-   :update-instance-for-different-class
-   :update-instance-for-redefined-class
-   :allocate-instance
-   :initialize-instance
-   :make-instance
-   :make-instances-obsolete
-   :reinitialize-instance
    :ensure-generic-function
-   :shared-initialize
    :slot-makunbound
-   :slot-unbound
 
+   ;;
    ;; Environment
    :describe
-   :describe-object
    :disassemble
    :ed
    :get-decoded-time
@@ -468,8 +447,8 @@
    :dribble
    :room
    :sleep
-   :documentation
 
+   ;;
    ;; Hash Table
    :clrhash
    :remhash))

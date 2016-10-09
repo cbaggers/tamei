@@ -74,7 +74,7 @@
      :cdr
      :mapc
      :mapcar
-     :nthcd
+     :nthcdr
      :cons
      :adjoin
      :append
@@ -383,20 +383,15 @@
      ;;
      ;; Objects
      :find-class
-     :no-applicable-method
+
      :unbound-slot-instance
      :slot-value
      :class-of
-     :make-load-form
      :make-load-form-saving-slots
      :find-method
-     :function-keywords
-     :slot-missing
      :method-qualifiers
-     :class-name
      :slot-boundp
      :slot-exists-p
-     :compute-applicable-methods
 
      ;;
      ;; Files
@@ -588,7 +583,7 @@
    :cdr
    :mapc
    :mapcar
-   :nthcd
+   :nthcdr
    :cons
    :adjoin
    :append
@@ -897,20 +892,14 @@
    ;;
    ;; Objects
    :find-class
-   :no-applicable-method
    :unbound-slot-instance
    :slot-value
    :class-of
-   :make-load-form
    :make-load-form-saving-slots
    :find-method
-   :function-keywords
-   :slot-missing
    :method-qualifiers
-   :class-name
    :slot-boundp
    :slot-exists-p
-   :compute-applicable-methods
 
    ;;
    ;; Files
@@ -953,7 +942,6 @@
 
    ;;
    ;; Streams
-   :stream-element-type
    :stream-external-format
    :synonym-stream-symbol
    :broadcast-stream-streams
@@ -969,10 +957,6 @@
    :stream-error-stream
    :two-way-stream-input-stream
    :two-way-stream-output-stream
-   :input-stream-p
-   :interactive-stream-p
-   :open-stream-p
-   :output-stream-p
    :streamp
    :file-string-length
 
