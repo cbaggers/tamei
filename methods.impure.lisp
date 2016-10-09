@@ -1,4 +1,4 @@
-(uiop:define-package #:tamei.functions.impure (:use)
+(uiop:define-package #:tamei.methods.impure (:use)
   (:import-from
    :cl
    ;;

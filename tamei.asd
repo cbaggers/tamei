@@ -6,7 +6,9 @@
   :license "BSD - 2 Clause"
   :serial t
   :components ((:file "constants")
-               (:file "uncategorized")
+               (:file "uncategorized.macros")
+               (:file "uncategorized.special-operators")
                (:file "functions.pure")
                (:file "functions.impure")
-               ))
+               (:file "methods.pure")
+               (:file "methods.impure")))
