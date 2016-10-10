@@ -21,6 +21,8 @@ The reason for separating these from functions is that, whilst the standard may 
 - :tamei.constants
 - :tamei.uncategorized.macros
 - :tamei.uncategorized.special-operators
+- :tamei.uncategorized.types
+- :tamei.uncategorized.symbols
 
 These don't really need to be defined, but I imagined that whoever would be interested in using this project would also want to assess which macros and special forms they want to use. So these packages exist just to make that easy.
 

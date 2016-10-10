@@ -9,6 +9,8 @@
                (:file "uncategorized.macros")
                (:file "uncategorized.special-operators")
                (:file "uncategorized.variables")
+               (:file "uncategorized.types")
+               (:file "uncategorized.symbols")
                (:file "functions.pure")
                (:file "functions.impure")
                (:file "methods.pure")
