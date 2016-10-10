@@ -8,6 +8,7 @@
   :components ((:file "constants")
                (:file "uncategorized.macros")
                (:file "uncategorized.special-operators")
+               (:file "uncategorized.variables")
                (:file "functions.pure")
                (:file "functions.impure")
                (:file "methods.pure")
