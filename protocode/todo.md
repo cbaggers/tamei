@@ -1,1 +1,0 @@
-- make test 'pure-lisp'
