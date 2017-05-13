@@ -141,7 +141,6 @@
    :apply
    :funcall
    :multiple-value-list
-   :nth-value
    :values
    :values-list
    :every
